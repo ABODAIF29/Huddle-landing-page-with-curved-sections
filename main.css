@@ -1,0 +1,336 @@
+/********* FONTS *********/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+/********* Reset *********/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/********* ROOT *********/
+:root {
+    /********* Primary *********/
+--Pink: hsl(322, 100%, 66%);
+--Light-Pink: hsl(321, 100%, 78%);
+--Light-Red: hsl(0, 100%, 63%);
+    /********* Neutral *********/
+    --Very-Dark-Cyan: hsl(192, 100%, 9%);
+    --Very-Pale-Blue: hsl(207, 100%, 98%);
+}
+body {
+    min-height: 100vh;
+    min-width: 100vw;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+}
+main {
+    text-align: center;
+}
+/********* Start header *********/
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5em ;
+}
+header img {
+    width: 150px;
+    height: 30px;
+}
+header .btn-1 {
+    width: 150px;
+    padding: 1em;
+    border-radius: 20px;
+    color: var(--Light-Pink);
+    border: 1px solid var(--Light-Pink);
+    box-shadow: 2px 2px 6px var(--Pink);
+    background-color: white;
+    font-size: 0.9em;
+    font-weight: 700;
+    cursor: pointer;
+}
+.btn-1:hover {
+    box-shadow: none;
+    border: 2px solid var(--Light-Pink);
+}
+/********* End header *********/
+/********* Start Section *********/
+section .info-1 h1 {
+    font-size: 1.5em;
+    font-weight: 900;
+}
+section .info-1  {
+    padding: 1.5em;
+    margin-top: 5em;
+}
+section .info-1 .p-1 {
+    width: 500px;
+    margin: 10px auto;
+    font-size: 1em;
+    font-weight: 500;
+    color: var(--Very-Dark-Cyan);
+}
+section .info-1 .btn-2 {
+    padding: 1em;
+    margin: 1em 0 4em 0;
+    width: 300px;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: var(--Pink);
+    box-shadow: 5px 7px 13px #888888;
+    cursor: pointer;
+}
+.btn-2:hover {
+    background-color: var(--Light-Pink);
+}
+.info-image img {
+    width: 700px;
+}
+.info-2 {
+    width: 355px;
+    margin: 0 auto;
+    display: flex;
+}
+.info-2 .communities {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4em;
+}
+.info-2 .communities img {
+    width: 25px;
+    margin-left: 19px;
+}
+.info-2 .communities .p-2 {
+    font-size: 2.3em;
+    font-weight: 900;
+}
+.info-2 .communities .p-3 {
+    width: 142px;
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 3px;
+    color: var(--Very-Dark-Cyan);
+}
+.info-2 .communities {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4em;
+}
+.info-2 .messages img {
+    width: 25px;
+    margin-right: 35px;
+}
+.info-2 .messages .p-4 {
+    font-size: 2.3em;
+    font-weight: 900;
+    margin-left: 60px;
+}
+.info-2 .messages .p-5 {
+    width: 142px;
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 3px;
+    margin-left: 60px;
+    color: var(--Very-Dark-Cyan);
+}
+.grow {
+   display: flex;
+   align-items: center;
+   padding: 4em;
+   background-color: aquamarine;
+}
+.grow .h2-p {
+    display: flex;
+    flex-direction: column;
+}
+.grow .h2-p .h-1 {
+    font-size: 3em;
+    font-weight: 900;
+    margin-right: 8em;
+    width: 380px;
+}
+.grow .h2-p .p-6 {
+    font-size: 1.5em;
+    padding: 10px;
+    margin-right: 1em;
+    text-align: start;
+}
+.grow img {
+    width: 500px;
+}
+.flowing {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 4em;
+}
+.flowing img {
+    width: 500px;
+    display: flex;
+}
+.flowing .h2-p-7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1em;
+}
+.flowing .h2-p-7 .h2 {
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-right: 8em;
+    margin-bottom: 12px;
+    text-align: start;
+}
+.p-7 {
+    text-align: start;
+    font-size: 1em;
+    width: 570px;
+}
+.Your-users {
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+    margin-bottom: 6em;
+}
+.Your-users img {
+    width: 500px;
+}
+.Your-users .h3-p-8 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 4em;
+} 
+.h3-p-8 .h3 {
+    font-size: 1.5em;
+    font-weight: 700;
+    text-align: start;
+}
+.h3-p-8 .p-8 {
+    font-size: 1em;
+    font-weight: 600;
+    width: 470px;
+    text-align: start;
+}
+.mid-section {
+    text-align: center;
+    margin: 0 auto;
+}
+.mid-section .p-9 {
+   font-size: 2em;
+   font-weight: 900;
+   color: var(--Very-Dark-Cyan);
+}
+.mid-section .btn-3 {
+    padding: 1em;
+    margin-top: 2em;
+    margin-bottom: 4em;
+    width: 300px;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: var(--Pink);
+    box-shadow: 5px 7px 13px #888888;
+    cursor: pointer;
+}
+/********* End Section *********/
+
+/********* Start footer *********/
+footer{
+    height: 500px;
+    padding: 4em;
+    background-color: darkslategrey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Huddle {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.Huddle img {
+    width: 150px;
+    margin: 0 auto;
+}
+.Huddle .p-10 {
+    color: #fff;
+    width: 411px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: start;
+}
+.phone {
+    width: 265px;
+    display: flex;
+    margin-bottom: 10px;
+}
+.phone .img-1 {
+    width: 20px;
+}
+.phone a {
+    color: #fff;
+}
+.meassage {
+    width: 250px;
+    display: flex;
+}
+.meassage .img-2 {
+    width: 20px;
+}
+.meassage a {
+    color: #fff;
+}
+.social {
+    text-align: start;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.social img {
+    width: 25px;
+    margin: 10px;
+    cursor: pointer;
+}
+.Newsletter {
+    width: 500px;
+    height: 247px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.Newsletter h3 {
+    color: #fff;
+    text-align: start;
+
+}
+.Newsletter .p-11 {
+    width: 78%;
+    color: #fff;
+    margin-bottom: 20px;
+} 
+.form input {
+    padding: 10px;
+    width: 213px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 15px;
+}
+.form .btn-4 {
+    background-color: var(--Pink);
+    color: #fff;
+    padding: 10px;
+    width: 150px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.attribution {
+    margin-top: 2em;
+}
+/********* End footer *********/
